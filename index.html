@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <main>
+      <nav class="navBar">
+        <h1>Prateek C Kotian Portfolio</h1>
+        <div class="navigationMenu">
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect</a>
+        </div>
+      </nav>
+      <section class="heroSection">
+        <img class="profileImage" src="images/Screenshot_2022-08-02-22-20-27-11_99c04817c0de5652397fc8b56c3b3817.jpg" />
+        <div class="heroSectionDetails">
+          <h1>Prateek C Kotian</h1>
+          <h3>Student at AJIET,Mangalore</h3>
+        </div>
+      </section>
+      <section class="aboutMe" id="aboutMe">
+        <h1>What I do...</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum congue varius. Vivamus accumsan est eu iaculis bibendum. Curabitur nec erat eu mauris interdum tempor. Ut consectetur quam lacinia libero ullamcorper, vitae ornare nibh scelerisque. Suspendisse a ante gravida, tempus est eu, convallis lorem. Phasellus vitae dictum ex. Fusce tincidunt sed elit eu lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris in ante a sapien facilisis lacinia. Pellentesque rutrum sapien nec eros blandit, vitae placerat nunc finibus. Curabitur et quam lacus. Cras lacinia ac ex posuere ornare. Aenean finibus auctor diam at maximus. Donec suscipit nisl nunc, in mollis ipsum lobortis nec.
+        </p>
+      </section>
+      <section class="skillsandprojects">
+        <div class="skills" id="skills">
+          <h1 class="cardHeading">Skills</h1>
+          <img src="images/html5.svg" title="html" />
+          <img src="images/css3.svg" title="css3" />
+          <img src="images/django.svg" title="django" />
+          <img src="images/javascript.svg" title="javascript" />
+          <img src="images/php.svg" title="php" />
+          <img src="images/python.svg" title="python" />
+          <img src="images/icons8-c-programming.svg" title="C" />
+          <img src="images/ISO_C++_Logo.svg" title="C++" />
+        </div>
+        <div class="Projects" id="projects">
+          <h1 class="cardHeading">Projects</h1>
+          <div class="projectContainer">
+            <img src="images/css-svgrepo-com.svg" />
+            <div class="projectDescription">
+              <h4>Project Name</h4>
+              <p>Some Details of the Project.Some Details of the Projects</p>
+            </div>
+          </div>
+
+          <div class="projectContainer">
+            <img src="images/css-svgrepo-com.svg" />
+            <div class="projectDescription">
+              <h4>Project Name</h4>
+              <p>Some Details of the Project.Some Details of the Projects</p>
+            </div>
+          </div>
+          <div class="projectContainer">
+            <img src="images/css-svgrepo-com.svg" />
+            <div class="projectDescription">
+              <h4>Project Name</h4>
+              <p>Some Details of the Project.Some Details of the Projects</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contactForm" id="contactForm">
+        <h1>Let's Connect</h1>
+        <div class="formGroup">
+          <label for="name">Enter Full Name</label><br />
+          <input type="text" id="name" placeholder="Full Name" />
+        </div>
+        <div class="formGroup">
+          <label for="email">Email</label><br />
+          <input type="text" id="email" placeholder="Email" />
+        </div>
+        <div class="formGroup">
+          <label for="message">Message</label><br />
+          <textarea
+            name="w3review"
+            id="message"
+            cols="50"
+            rows="4"
+            placeholder="Send Some message"
+          ></textarea>
+        </div>
+        <button class="submitButton" onclick="{submit()}">Connect</button>
+      </section>
+    </main>
+  </body>
+</html>
